@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Navithra – B.Tech IT Student | Cloud Computing & Full Stack Portfolio" />
+  <title>Navithra | Cloud & IT Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Space Grotesk (display) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAV ========== -->
+  <header id="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="nav-logo">N<span class="accent">.</span></a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#internship">Internship</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section id="home" class="hero">
+    <!-- Animated cloud-grid background -->
+    <div class="hero-bg" aria-hidden="true">
+      <div class="grid-lines"></div>
+      <div class="cloud-node n1"></div>
+      <div class="cloud-node n2"></div>
+      <div class="cloud-node n3"></div>
+      <div class="pulse-ring r1"></div>
+      <div class="pulse-ring r2"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Cloud Computing Intern · DecodeLabs 2026</p>
+      <h1 class="hero-title">Hi, I'm <span class="highlight">Navithra</span></h1>
+      <p class="hero-sub">B.Tech Information Technology · Building infrastructure that scales from&nbsp;<strong>1</strong>&nbsp;to&nbsp;<strong>1,000,000</strong>&nbsp;without re-architecting.</p>
+      <div class="hero-cta-group">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+      <!-- Live deployment badge -->
+      <div class="live-badge">
+        <span class="dot"></span>
+        <span>Deployed via AWS S3 Static Hosting</span>
+      </div>
+    </div>
+
+    <div class="scroll-hint" aria-hidden="true">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section">
+    <div class="container two-col">
+      <div class="about-visual reveal">
+        <!-- Stylized avatar placeholder -->
+        <div class="avatar-card">
+          <div class="avatar-initials">NV</div>
+          <div class="avatar-badge">☁️ Cloud Architect in Training</div>
+        </div>
+        <div class="stat-pills">
+          <div class="pill">3+ Projects</div>
+          <div class="pill">AWS · Azure</div>
+          <div class="pill">Batch 2026</div>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <p class="section-eyebrow">About Me</p>
+        <h2>Turning cloud <em>concepts</em> into shipped&nbsp;<em>infrastructure</em></h2>
+        <p>I'm <strong>Navithra</strong>, a final-year B.Tech IT student passionate about cloud infrastructure, DevOps culture, and building things that actually work in production. Through DecodeLabs' Cloud Computing internship, I'm applying the "cattle, not pets" mindset to design systems that are disposable, scalable, and defined by code.</p>
+        <p>When I'm not configuring S3 bucket policies, you'll find me exploring serverless architectures and contributing to open-source tools.</p>
+        <a href="#contact" class="btn btn-primary">Let's Connect</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION ========== -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow center">Education</p>
+      <h2 class="center">Academic Background</h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="tl-marker"></div>
+          <div class="tl-card">
+            <span class="tl-date">2022 – 2026</span>
+            <h3>B.Tech – Information Technology</h3>
+            <p class="tl-inst">SRM Institute of Science &amp; Technology, Chennai</p>
+            <p>CGPA: <strong>8.6 / 10</strong> · Specialisation: Cloud Computing &amp; Distributed Systems</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="tl-marker"></div>
+          <div class="tl-card">
+            <span class="tl-date">2020 – 2022</span>
+            <h3>Higher Secondary (Class XII) – Computer Science</h3>
+            <p class="tl-inst">Sri Kumaran Matriculation Higher Secondary School, Chennai</p>
+            <p>Percentage: <strong>94.2%</strong></p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="tl-marker"></div>
+          <div class="tl-card">
+            <span class="tl-date">2020</span>
+            <h3>Secondary School (Class X)</h3>
+            <p class="tl-inst">Sri Kumaran Matriculation Higher Secondary School, Chennai</p>
+            <p>Percentage: <strong>96.8%</strong></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <p class="section-eyebrow center">Skills</p>
+      <h2 class="center">What I Work With</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group reveal">
+          <h4>☁️ Cloud Platforms</h4>
+          <div class="skill-bars">
+            <div class="skill-row"><span>AWS S3 / EC2 / IAM</span><div class="bar"><div class="fill" style="--w:82%"></div></div></div>
+            <div class="skill-row"><span>Azure Blob / App Service</span><div class="bar"><div class="fill" style="--w:75%"></div></div></div>
+            <div class="skill-row"><span>Static Website Hosting</span><div class="bar"><div class="fill" style="--w:90%"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h4>🛠️ DevOps &amp; Tools</h4>
+          <div class="skill-bars">
+            <div class="skill-row"><span>Git &amp; GitHub</span><div class="bar"><div class="fill" style="--w:88%"></div></div></div>
+            <div class="skill-row"><span>AWS CLI / Azure CLI</span><div class="bar"><div class="fill" style="--w:70%"></div></div></div>
+            <div class="skill-row"><span>VS Code / Linux CLI</span><div class="bar"><div class="fill" style="--w:85%"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h4>💻 Web Development</h4>
+          <div class="skill-bars">
+            <div class="skill-row"><span>HTML5 / CSS3</span><div class="bar"><div class="fill" style="--w:92%"></div></div></div>
+            <div class="skill-row"><span>JavaScript (ES6+)</span><div class="bar"><div class="fill" style="--w:78%"></div></div></div>
+            <div class="skill-row"><span>Responsive Design</span><div class="bar"><div class="fill" style="--w:86%"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h4>📐 Core Concepts</h4>
+          <div class="tag-cloud">
+            <span class="tag">IaaS / PaaS / SaaS</span>
+            <span class="tag">Object Storage</span>
+            <span class="tag">CDN</span>
+            <span class="tag">IAM &amp; RBAC</span>
+            <span class="tag">Least Privilege</span>
+            <span class="tag">Bucket Policies</span>
+            <span class="tag">CI/CD Basics</span>
+            <span class="tag">Linux</span>
+            <span class="tag">Python (basic)</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow center">Projects</p>
+      <h2 class="center">Shipped Work</h2>
+      <div class="projects-grid">
+
+        <!-- Project 1 – The Global Launch (internship project) -->
+        <article class="project-card featured reveal">
+          <div class="project-badge">DecodeLabs · Project 1</div>
+          <h3>🚀 The Global Launch</h3>
+          <p>Hosted a static portfolio website using <strong>AWS S3</strong> and <strong>Azure Blob Storage</strong> without provisioning a single server. Configured bucket policies for public read access, enabled Static Website Hosting, and achieved a shareable live URL with &lt;50ms global latency.</p>
+          <div class="project-meta">
+            <span class="tag">AWS S3</span>
+            <span class="tag">Azure Blob</span>
+            <span class="tag">IAM</span>
+            <span class="tag">HTML/CSS</span>
+          </div>
+          <div class="project-outcome">
+            <span class="outcome-label">Outcome:</span> Live, publicly accessible URL · 99.999999999% durability
+          </div>
+          <a href="#" class="btn btn-outline" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card reveal">
+          <h3>🌐 Personal Portfolio v1</h3>
+          <p>Designed and built a fully responsive personal portfolio from scratch using semantic HTML5, CSS custom properties, and vanilla JavaScript. Deployed directly via AWS S3 static hosting.</p>
+          <div class="project-meta">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">S3 Hosting</span>
+          </div>
+          <a href="#" class="btn btn-outline" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card reveal">
+          <h3>📦 Cloud Storage Explorer</h3>
+          <p>Built a lightweight CLI wrapper around the AWS SDK to list, upload, and manage S3 bucket objects. Implemented IAM role-based authentication and recursive folder uploads with progress tracking.</p>
+          <div class="project-meta">
+            <span class="tag">Python</span>
+            <span class="tag">AWS SDK</span>
+            <span class="tag">IAM Roles</span>
+            <span class="tag">CLI</span>
+          </div>
+          <a href="#" class="btn btn-outline" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card reveal">
+          <h3>🔐 IAM Policy Simulator</h3>
+          <p>Created a mini web app that parses AWS IAM JSON policies and visually explains the permissions granted, denied, and missing — making policy debugging beginner-friendly.</p>
+          <div class="project-meta">
+            <span class="tag">JavaScript</span>
+            <span class="tag">AWS IAM</span>
+            <span class="tag">JSON</span>
+          </div>
+          <a href="#" class="btn btn-outline" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CERTIFICATIONS ========== -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <p class="section-eyebrow center">Certifications</p>
+      <h2 class="center">Verified Credentials</h2>
+      <div class="certs-grid">
+
+        <div class="cert-card reveal">
+          <div class="cert-icon">🏅</div>
+          <h4>AWS Cloud Practitioner Essentials</h4>
+          <p>Amazon Web Services · 2025</p>
+          <span class="cert-status">Completed</span>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon">🏅</div>
+          <h4>Microsoft Azure Fundamentals (AZ-900)</h4>
+          <p>Microsoft · 2025</p>
+          <span class="cert-status">Completed</span>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon">🏅</div>
+          <h4>Git &amp; GitHub for Developers</h4>
+          <p>Coursera / Google · 2024</p>
+          <span class="cert-status">Completed</span>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon">🎓</div>
+          <h4>DecodeLabs Cloud Computing Internship</h4>
+          <p>DecodeLabs · Batch 2026</p>
+          <span class="cert-status in-progress">In Progress</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== INTERNSHIP ========== -->
+  <section id="internship" class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow center">Internship Experience</p>
+      <h2 class="center">DecodeLabs · Cloud Computing</h2>
+      <div class="internship-card reveal">
+        <div class="int-header">
+          <div>
+            <h3>Cloud Solutions Architect Intern</h3>
+            <p class="int-company">DecodeLabs · Greater Lucknow, India · Remote</p>
+          </div>
+          <span class="int-date">June 2026 – Present</span>
+        </div>
+        <ul class="int-bullets">
+          <li>Deployed static websites using <strong>AWS S3</strong> and <strong>Azure Blob Storage</strong> without provisioning any virtual machines, reducing hosting cost to &lt;$18/month.</li>
+          <li>Configured <strong>IAM roles and bucket policies</strong> following the Principle of Least Privilege — never using root keys for deployments.</li>
+          <li>Applied the <strong>"Cattle vs Pets"</strong> infrastructure mindset: treating resources as disposable, numbered IDs rather than hand-crafted servers.</li>
+          <li>Mastered the AWS CLI upload workflow (<code>aws s3 sync</code>) and Azure CLI batch upload (<code>az storage blob upload-batch</code>) for CI/CD-ready deployments.</li>
+          <li>Analysed economics of Cloud Storage vs Legacy VPS: pay-per-use at <strong>$0.023/GB</strong> vs fixed $20/month with crash risk at 10× load.</li>
+          <li>Understood object storage durability guarantees — <strong>11 Nines (99.999999999%)</strong> with replication across multiple Availability Zones.</li>
+        </ul>
+        <div class="int-tools">
+          <strong>Tools &amp; Tech:</strong>
+          <span class="tag">AWS S3</span>
+          <span class="tag">Azure Blob</span>
+          <span class="tag">IAM</span>
+          <span class="tag">RBAC</span>
+          <span class="tag">AWS CLI</span>
+          <span class="tag">Azure CLI</span>
+          <span class="tag">GitHub</span>
+          <span class="tag">HTML/CSS/JS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section">
+    <div class="container contact-wrap">
+      <p class="section-eyebrow center">Contact</p>
+      <h2 class="center">Let's Build Something</h2>
+      <p class="center contact-sub">Open to collaboration, cloud projects, and internship opportunities.</p>
+
+      <div class="contact-grid">
+        <!-- Info -->
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <span class="ci-icon">📧</span>
+            <div>
+              <p class="ci-label">Email</p>
+              <a href="mailto:navithra2026@gmail.com">navithra2026@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon">🐙</span>
+            <div>
+              <p class="ci-label">GitHub</p>
+              <a href="https://github.com/navithra" target="_blank" rel="noopener">github.com/navithra</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon">💼</span>
+            <div>
+              <p class="ci-label">LinkedIn</p>
+              <a href="https://linkedin.com/in/navithra" target="_blank" rel="noopener">linkedin.com/in/navithra</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon">📍</span>
+            <div>
+              <p class="ci-label">Location</p>
+              <span>Chennai, Tamil Nadu, India</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form (static — no backend; connects via mailto) -->
+        <div class="contact-form reveal">
+          <div class="form-group">
+            <label for="cf-name">Name</label>
+            <input type="text" id="cf-name" placeholder="Your name" autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" placeholder="you@example.com" autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label for="cf-msg">Message</label>
+            <textarea id="cf-msg" rows="4" placeholder="What are you building?"></textarea>
+          </div>
+          <button class="btn btn-primary full-width" id="cf-send">Send Message</button>
+          <p class="form-note" id="cf-status"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">Navithra <span class="accent">·</span> Cloud &amp; IT Portfolio</p>
+      <p class="footer-copy">Deployed via AWS S3 Static Website Hosting · DecodeLabs Batch 2026</p>
+      <p class="footer-copy">Built with HTML, CSS &amp; JavaScript · No servers harmed 🚀</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-top" id="back-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
