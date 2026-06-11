@@ -198,8 +198,8 @@ git push -u origin main
 | | |
 |---|---|
 | 📧 Email | n3790621@gmail.com |
-| 🐙 GitHub | github.com/navithra |
-| 💼 LinkedIn | linkedin.com/in/navithra |
+| 🐙 GitHub |  https://github.com/n3790621-hub|
+| 💼 LinkedIn |linkedin.com/in/navithra-l-516a88403  |
 | 📍 Location | Chennai, Tamil Nadu, India |
 
 ---
